@@ -36,6 +36,7 @@ public class SpringPrimeFacesApplication {
 		return servletContext -> {
 			servletContext.setInitParameter("com.sun.faces.forceLoadConfiguration", Boolean.TRUE.toString());
 			servletContext.setInitParameter("primefaces.THEME", "redmond");
+			servletContext.setInitParameter("javax.faces.PROJECT_STAGE", "Production");
 		};
 	}
 

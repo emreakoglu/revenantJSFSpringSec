@@ -6,7 +6,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>revenantJSFSpringSec</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>jsf-spring-security Maven Webapp</name>
@@ -125,6 +125,7 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					<mainClass>com.example.SpringPrimeFacesApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
