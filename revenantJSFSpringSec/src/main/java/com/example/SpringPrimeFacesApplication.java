@@ -2,6 +2,11 @@ package com.example;
 
 import javax.faces.webapp.FacesServlet;
 
+import org.apache.catalina.connector.Connector;
+import org.apache.jasper.EmbeddedServletOptions;
+import org.apache.tomcat.util.descriptor.web.SecurityCollection;
+import org.apache.tomcat.util.descriptor.web.SecurityConstraint;
+import org.hibernate.boot.model.source.internal.hbm.EmbeddableSourceImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
