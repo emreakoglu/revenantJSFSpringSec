@@ -18,7 +18,7 @@
 	</sec:authorize>
 
 	<h:form id="form">
-		<p:commandButton value="Giris Yapmıs kullanıcı hangisi" action="#{adminPage.findUser}" update="adminName"/>
+		<p:commandButton value="Giris Yapmıs kullanıcı hangisi" action="#{adminPage.findUser}" process="@this" update="adminName"/>
 		
 		
 		
